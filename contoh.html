@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profil Saya</title>
+</head>
+<body>
+
+<!-- Kontainer Utama -->
+<div class="container">
+    <h1 align="center">Profil Diri</h1>
+
+    <!-- Bagian Profil -->
+    <div class="profile-section">
+        <h2>Gambar Profil</h2>
+        <img src="saya.png" alt="Foto profil" width="200px" height="200px">
+    
+     <div class="video-section">
+        <h2>Video Perkenalan</h2>
+        <video width="320" height="240" controls>
+            <source src="your-video-file.mp4" type="video/mp4">
+        </video>
+    </div>
+    <h2>Tentang Saya</h2>
+    Halo! Saya adalah mahasiswa Telkom University dengan jurusan Teknologi informasi.
+
+        <!-- Informasi Pribadi -->
+        <h2>Informasi Pribadi</h2>
+        <table border="1" cellspacing="0" cellpading="1">
+            <tr>
+                <th>Nama</th>
+                <td>Chelsea W</td>
+            </tr>
+            <tr>
+                <th>Umur</th>
+                <td>20 Tahun</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Jl.xxxxx</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Bagian Kontak -->
+    <div class="contact-section">
+        <h2>Formulir Kontak</h2>
+        <form action="/submit-profile" method="post">
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+
+    <!-- Bagian Media Sosial -->
+    <div class="social-links-section">
+        <h2>Media Sosial</h2>
+        <div>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a><br>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a><br>
+            <a href="https://x.com/@X?mx=2">X</a>
+        </div>
+    </div>
+    
+</div>
+
+</body>
+</html>
